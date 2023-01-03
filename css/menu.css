@@ -1,0 +1,599 @@
+div.menu {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  margin-bottom: 2px;
+}
+
+div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+div.menu > nav > ul {
+  width: 70%;
+  height: inherit;
+  list-style: none;
+  margin: right;
+  text-align: right;
+  margin-right: 10px;
+}
+div.menu > nav > ul > li {
+  display: inline-block;
+  width: auto;
+  height: inherit;
+  vertical-align: top;
+  /* position: relative; */
+}
+div.menu > nav > ul > li > a {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  color: grey;
+  padding: 0 10px;
+  line-height: 40px;
+  font-family: IranSans;
+  font-size: 11px;
+  text-decoration: none;
+  transition: 300ms;
+
+}
+div.menu > nav > ul > li:first-of-type > a {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 40px;
+  color: black;
+ 
+
+
+}
+div.menu > nav > ul > li > a:hover {
+  background-color: gainsboro;
+  border-bottom: 3px solid red;
+ 
+}
+div.menu > nav > ul > li > div.kala {
+  width: calc(100vw - 40px);
+  height: 550px;
+  background-color: whitesmoke;
+  position: absolute;
+  right: 10px;
+  display: none;
+  
+  z-index: 2;
+}
+div.menu > nav > ul > li:hover > div.kala {
+  display: block;
+}
+div.menu > nav > ul > li > div.kala > ul {
+  list-style-type: none;
+  width: 13%;
+  height: inherit;
+  background-color: whitesmoke;
+   border-left: 1px solid lightgrey; 
+}
+div.menu > nav > ul > li > div.kala > ul > li {
+  width: 100%;
+  height: 50px;
+}
+div.menu > nav > ul > li > div.kala > ul > li > a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color: black;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > a:hover {
+  background-color: lightgrey;
+  margin-right: 0px;
+  color: red;
+}
+/* submenu */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu > div > ul>li:nth-of-type(5)>a{
+  color: black;
+  font-weight: bold;
+  border-right: 2px solid red;
+  margin-right: 2px;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu > div> ul:nth-of-type(2)>li:last-of-type(8)>a{
+  color: black;
+  font-weight: bold;
+  border-right: 2px solid red;
+  margin-right: 2px;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu > div> ul:nth-of-type(2)>li:nth-of-type(7)>a{
+  color: black;
+  font-weight: bold;
+  border-right: 2px solid red;
+  margin-right: 2px;
+
+}
+
+/* submenu1 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu1 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu1 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu1 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu1 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu1 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu1 > div > ul > li >a{
+  color: black;
+  font-weight: bold;
+  border-right: 2px solid red;
+  margin-right: 2px;
+
+}
+
+/* submenu2 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu2 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu2 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu2 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu2 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu2 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu3 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu3 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu3 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu3 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu3 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu3 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu4 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu4 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu4 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu4 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu4 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu4 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu5 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu5 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu5 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu5 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu5 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu5> div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu6 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu6 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu6{
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu6 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu6 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu6 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu7 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu7{
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu7 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu7 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu7 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu7> div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu8 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu8 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu8 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu8 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu8 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu8 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu9 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu9 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu9 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu9 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu9 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu9 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}
+/* submenu10 */
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu10 {
+  width: 85%;
+  height:550px;
+  position: absolute;
+  background-color:whitesmoke;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: 500ms;
+
+}
+div.menu > nav > ul > li > div.kala > ul > li:hover > div.subMenu10 {
+  display: block;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu10 > div {
+  display: inline-block;
+  width: 17%;
+  height: inherit;
+  background-color: whitesmoke;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu10 > div>ul>li>a{
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  margin-right: 5px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: IranSans;
+  font-size: 12px;
+  color:gray;
+  transition: 300ms;
+  
+}
+div.menu > nav > ul > li > div.kala > ul > li > div.subMenu10 > div>ul>li>a:hover{
+  color: red;
+  transition:200ms;
+}

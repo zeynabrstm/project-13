@@ -1,0 +1,53 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+div.wrapper{
+    width: 100%;
+}
+:root{
+    --heightslider:calc(100vh - 40px);
+}
+@font-face{
+    font-family: IranSans;
+    src:url('../font/fa/FontsFree-Net-ir-sans.ttf');
+    src:url('../font/fa/FontsFree-Net-ir_sans.eot');
+    src:url('../font/fa/FontsFree-Net-ir_sans.woff');
+    src:url('../font/fa/FontsFree-Net-ir_sans.woff2');
+}
+@font-face {
+    font-family: digikala;
+    src: url("../font/en/Viga-Regular.eot");
+    src: url("../font/en/Viga-Regular.ttf");
+    src: url("../font/en/Viga-Regular.woff");
+    src: url("../font/en/Viga-Regular.woff2");
+  }
+  @font-face {
+    font-family: menu;
+    src: url("../font/fa/yekan/Yekan.eot");
+    src: url("../font/fa/yekan/Yekan.ttf");
+    src: url("../font/fa/yekan/Yekan.woff");
+    src: url("../font/fa/yekan/Yekan.woff2");
+  }
+  @font-face {
+    font-family:body;
+    src: url('../font/fa/yekan2/eot/IRANYekanWebRegular.eot');
+    src: url('../font/fa/yekan2/ttf/IRANYekanWebRegular.ttf');
+    src:url('../font/fa/yekan2/woff/IRANYekanWebRegular.woff');
+    src: url('../font/fa/yekan2/woff2/IRANYekanWebRegular.woff2');
+  }
+  @font-face{
+    font-family: body1;
+    src: url('../font/fa/yekan2/eot/IRANYekanWebBold.eot');
+    src:url('../font/fa/yekan2/ttf/IRANYekanWebBold.ttf');
+    src: url('../font/fa/yekan2/woff/IRANYekanWebBold.woff');
+    src:url('../font/fa/yekan2/woff2/IRANYekanWebBold.woff2');
+  }
+  @font-face{
+    font-family:matn ;
+    src: url('../font/fa/iransans/IRANSansWeb.eot');
+    src:url('../font/fa/iransans/IRANSansWeb.ttf');
+    src: url('../font/fa/iransans/IRANSansWeb.woff');
+    src:url('../font/fa/iransans/IRANSansWeb.woff2');
+  }
+  

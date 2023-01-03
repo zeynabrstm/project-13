@@ -1,0 +1,14 @@
+div.crimson {
+  width: 100%;
+
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+div.childcrimson {
+  width: 91%;
+  height: 300;
+  background-color: rgb(240, 31, 73);
+  border-radius: 15px;
+  margin: 0 auto;
+}

@@ -1,0 +1,25 @@
+div.sell{
+    display: inline-block;
+    width: 99%;
+    height: auto;
+    margin:0 auto;
+    margin-top: 30px;
+    /* border: 1px solid green; */
+  }
+  div.sell>div{
+
+    display: inline-block;
+    width:auto;
+    height:inherit ;
+    /* border: 1px solid brown; */
+    margin-right:60px;
+    vertical-align: middle;
+
+  
+  }
+  div.sell>div>a>img{
+    width:600px;
+    margin: 0 auto;
+    border-radius: 5%;
+
+  }

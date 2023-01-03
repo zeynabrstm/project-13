@@ -1,0 +1,32 @@
+div.parting {
+    font-family:body;
+    width: 86%;
+    height: auto;
+    background-color: white;
+    margin-top: 40px;
+    border: 0px solid black;
+    margin-right: 95px;
+    /* border: 1px solid red; */
+  }
+  div.part {
+    font-family: menu;
+    font-size:medium;
+    width: 40%;
+    height: auto;
+    border: 0px solid black;
+    margin-right: 320px;
+    /* border: 1px solid green; */
+  }
+  div.parting1 {
+    width: 95%;
+    border: 0px solid black;
+    margin-right: 35px;
+    /* border: 1px solid pink; */
+  }
+
+
+  div.parting2 {
+    width: 85%;
+    border: 0px solid black;
+    margin-right: 120px;
+  }

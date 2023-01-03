@@ -1,0 +1,115 @@
+div.market {
+  width: 100%;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  /* border: 1px solid brown; */
+}
+div.market > div.childMarket {
+  width: 95%;
+  height: auto;
+  background-color: rgb(237, 235, 235);
+  margin: 0 auto;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  /* border: 1px solid red; */
+}
+div.market > div.childMarket > div.right {
+  display: inline-block;
+  width: auto;
+  padding: 10px 10px;
+  vertical-align: middle;
+  background-color: transparent;
+}
+div.market > div.childMarket > div.right > img {
+  vertical-align: middle;
+}
+div.market > div.childMarket > div.right > svg {
+  vertical-align: middle;
+  margin-right: 13px;
+  width: 250px;
+}
+div.market > div.childMarket > div.right > a {
+  vertical-align: middle;
+  margin-right: 12px;
+  display: inline-block;
+  background-color: rgb(26, 161, 26);
+  width: 120px;
+  height: 30px;
+  color: white;
+  font-family: IranSans;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 35px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px black;
+  text-align: center;
+  transition: 200ms;
+}
+
+div.market > div.childMarket > div.right > a:hover {
+  background-color: goldenrod;
+  transition: 300ms;
+}
+div.market > div.childMarket > div.left {
+  display: inline-block;
+  width: auto;
+  padding: 20px 10px;
+  background-color: transparent;
+  /* vertical-align:top; */
+  margin-right: 60px;
+  /* border: 1px solid green; */
+}
+
+div.market > div.childMarket > div.left > div {
+  display: inline-block;
+  width:53px;
+  height:50px;
+  padding:11px ;
+  vertical-align: middle; 
+  /* border: 1px solid green; */
+  background-color:white;
+  border-radius: 50%;
+  margin-right: 9px;
+ 
+  }
+  div.market > div.childMarket > div.left>div.a::after,div.market > div.childMarket > div.left>div.b::after,div.market > div.childMarket > div.left>div.c::after,div.market > div.childMarket > div.left>div.d::after,div.market > div.childMarket > div.left>div.e::after,div.market > div.childMarket > div.left>div.f::after
+  {
+    content:attr(data-discount);
+    display:inline-block;
+    width: 30px;
+    height: 20px;
+    background-color: crimson;
+    border-radius: 45%;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 1px ;
+    font-size: 12px;
+    font-family: IranSans;
+  
+}
+
+div.market > div.childMarket > div.left > div > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  background-color: transparent;
+}
+
+div.market > div.childMarket > div.left > a {
+  display: inline-block;
+  width: 110px;
+  height: 40px;
+  background-color: whitesmoke;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 25px;
+  line-height: 35px;
+  font-family: IranSans;
+  font-size: 12px;
+  background-color: white;
+  color: rgb(26, 161, 26);
+  text-decoration: none;
+  margin-right: 10px;
+}

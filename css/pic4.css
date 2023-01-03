@@ -1,0 +1,17 @@
+div.pic4 {
+
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    margin-top: 25;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+  }
+  div.pic4>div>a>img{
+  border-radius:5%;
+  margin-right: 2px;
+
+  }
